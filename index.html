@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NaturalNailsSpa</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+
+    <div class="container">
+        <div class="form-content">
+            <h1 ide="title">Registro</h1>
+            <form action ="NaturalNailsSpa.html"method ="get">
+            
+                <div class="input-group">
+                    <div class="input-field" id="nameInput">
+                        <i class="fa-solid fa-user"></i>
+                        <input type="text" placeholder="nombre">
+                    </div>
+                    <div class="input-field">
+                        <i class="fa-solid fa-envelope"></i>
+                        <input type="email" placeholder="correo"required>
+                    </div>
+                    <div class="input-field">
+                        <i class="fa-solid fa-lock"></i>
+                        <input type="password" placeholder="contraseña"required>
+                    </div>
+                    
+                    <p>Olvidaste tu contraseña <a href="#">Click aqui</a></p>
+
+                </div>
+                <div class="btn-field">
+                 <button id="signUp" type="button">Registro</button>
+                   
+                 <button id="signIn" type="button">login</button>
+                 
+                    
+                </div>
+                   
+            </form>
+        </div>
+    </div>
+
+<script>
+    document.getElementById("signUp").addEventListener("click", function () {
+    // Acción al hacer clic en Registro
+    window.location.href = "NaturalNailsSpa.html";
+  });
+
+  document.getElementById("signIn").addEventListener("click", function () {
+    // Acción al hacer clic en Login
+    window.location.href = "NaturalNailsSpa.html";
+  });
+
+</script>
+   
+  
+    <script src="script.js"></script>
+    <script src="style.css"></script>
+   
+   
+
+
+</body>
+</html>
